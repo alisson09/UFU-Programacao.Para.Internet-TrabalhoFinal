@@ -1,0 +1,31 @@
+body, main {
+    background-color: var(--azul-claro);
+}
+
+.container-conteudo {
+    padding-top: 1rem;
+}
+
+.coluna a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.card {
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card:hover, .card:active {
+    box-shadow: 3px 3px 3px var(--azul-escuro);
+}
+
+svg {
+    width: 100%;
+}
+
+.coluna {
+    display: flex;
+    justify-content: center;
+}

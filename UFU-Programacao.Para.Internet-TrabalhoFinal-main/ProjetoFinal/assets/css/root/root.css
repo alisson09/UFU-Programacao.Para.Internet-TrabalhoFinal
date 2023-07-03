@@ -1,0 +1,13 @@
+:root {
+  --azul-claro: #AEE8E7;
+  --azul-escuro: #32ADAB; 
+  --verde-escuro: #80B048;
+  --verde-claro: #B1FC5B;
+  --vermelho: #FF6777;
+  --branco: #f2f2f2;
+  --preto: #212525;
+}
+
+body {
+  background-color: var(--branco);
+}

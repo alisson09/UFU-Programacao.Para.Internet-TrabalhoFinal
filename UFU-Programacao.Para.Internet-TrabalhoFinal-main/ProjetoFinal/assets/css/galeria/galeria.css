@@ -1,0 +1,21 @@
+nav {
+  border-bottom: 2px solid var(--branco);
+}
+
+main { 
+  background-color: var(--preto);
+  box-shadow: none;
+}
+
+footer {
+  background-color: var(--azul-escuro);
+}
+
+@media screen and (min-width: 1200px) { 
+  footer {
+      position: relative;
+      z-index: 2;
+      top: calc(100vh - 231px);
+      background-color: var(--azul-escuro);
+  }
+}

@@ -1,0 +1,7 @@
+main {
+    position: relative;
+    z-index: 2;
+    background-color: var(--branco);
+    margin-bottom: 251px;
+    margin-top: 57px;
+}

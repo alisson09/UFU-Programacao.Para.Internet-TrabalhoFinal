@@ -1,0 +1,30 @@
+.container-formulario {
+    width: 80%;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.furmulario-item {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle {
+    margin: 1em auto;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .container-formulario {
+        height: auto;
+        margin: 100px auto;
+    }
+}

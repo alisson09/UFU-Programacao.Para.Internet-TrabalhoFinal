@@ -1,0 +1,14 @@
+.container-section {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+@media screen and (max-width: 992px) { 
+    .container-section {
+        display: block;
+        padding: 75px 0;
+    }
+}

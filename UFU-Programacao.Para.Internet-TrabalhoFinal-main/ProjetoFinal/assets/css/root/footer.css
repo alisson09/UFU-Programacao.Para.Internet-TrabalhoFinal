@@ -1,0 +1,26 @@
+footer {
+bottom: 0;
+width: 100%;
+
+color: var(--branco);
+background-color: var(--preto);
+
+border-top: 2px solid var(--branco);
+
+text-align: center;
+padding: 2em;
+
+top: calc(100vh - 90vh);
+position: relative;
+}
+
+.footer-logotipo {
+margin-top: 10px;
+margin-bottom: 30px;
+line-height: 30px;
+}
+
+.footer-copyright {
+margin-bottom: 10px;
+line-height: 30px;
+}

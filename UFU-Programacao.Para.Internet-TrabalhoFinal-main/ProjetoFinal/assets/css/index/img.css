@@ -1,0 +1,38 @@
+.img {
+    width: 100%;
+    height: 200px;
+    background-image: url("../../image/pexels-pixabay-269077.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 90%;
+    background-size: 100%;
+}
+
+@media screen and (min-width: 576px) { 
+    .img {
+        height: 350px;
+    }
+ }
+
+@media screen and (min-width: 768px) { 
+    .img {
+        height: 400px;
+    }
+ }
+
+@media screen and (min-width: 992px) { 
+    .img {
+        height: 450px;
+    }
+ }
+
+@media screen and (min-width: 1200px) { 
+    .img {
+        height: 550px;
+    }
+ }
+
+@media screen and (min-width: 1400px) { 
+    .img {
+        height: 600px;
+    }
+ }

@@ -1,0 +1,17 @@
+.carousel-item{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.carousel__img {
+    object-fit: cover;
+    object-position: center center;
+    height: calc(100vh - 55px);
+}
+
+@media screen and (min-width: 1340px) { 
+    .carousel{
+        position: fixed;
+        height: calc(100vh - 55px);
+      }
+}

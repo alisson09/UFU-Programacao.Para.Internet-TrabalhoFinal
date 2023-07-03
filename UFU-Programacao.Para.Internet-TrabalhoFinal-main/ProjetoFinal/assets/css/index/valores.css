@@ -1,0 +1,13 @@
+.valores {
+    width: 30%;
+}
+
+@media screen and (max-width: 992px) { 
+    .valores {
+        width: 100%;
+    }
+}
+
+.valores__subtitle {
+    margin-bottom: 20px;
+}

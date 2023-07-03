@@ -1,0 +1,17 @@
+.sobre {
+    width: 65%;
+}
+
+@media screen and (max-width: 992px) { 
+    .sobre {
+        width: 100%;
+    }
+}
+
+.sobre__subtitle {
+    margin-bottom: 20px;
+}
+
+.sobre__paragraph {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: var(--azul-claro);
+}
+
+.container-login {
+    margin: 114px 0 57px 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-conteudo {
+    padding: 2em;
+    background-color: var(--branco);
+    width: 65%;
+    border-radius: 5px;
+}
+
+#loginFailMsg {
+    display: none;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+    .container-conteudo {
+        width: 95%;
+        padding: 1em;
+    }
+
+    footer {
+        position: relative;
+    }
+}
